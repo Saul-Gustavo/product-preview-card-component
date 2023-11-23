@@ -1,6 +1,5 @@
 
-![product-card](https://github.com/Saul-Gustavo/product-preview-card-component/assets/110861830/e343d459-e198-4bf1-bc06-d5ca65bea98d)
-
+![product-card-new](https://github.com/Saul-Gustavo/product-preview-card-component/assets/110861830/a46fd638-2d2e-4e31-9726-6791a6adf14a)
 
 # product-preview-card-component
 
