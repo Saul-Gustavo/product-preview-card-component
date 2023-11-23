@@ -147,46 +147,36 @@ footer {
 
 /* mibile screen */ 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 475px) {
 
     .main{
         display: flex;
         flex-direction: column;
         width: 340px;
-        height: 650px;
-        margin: 80px auto;
+        height: 675px;
+        padding: 0px;
         background: var(--white);
         border-radius: 10px;
     }
 
     .card-info{
-        margin: 17px;
+        margin: 20px;
     }
 
     .title{
         color: var(--dark-garish);
         font-size: 14px;
         font-family: 'Montserrat', sans-serif;
-        margin: 5px 10px;
+        margin: 5px 20px;
         padding: 5px;
     }
 
     .sub-title{
-        margin: 20px 10px;
+        margin: 20px;
         font-size: 28px;
         color: var(--dark-blue);
         font-family: 'Fraunces', serif;
         font-weight: 800;
-    }
-    
-    .more{
-        font-family: 'Fraunces', sans-serif;
-        font-weight: 500;
-        text-align: left;
-        margin: 20px 10px;
-        --paragraph: 14px;
-        color: var(--dark-garish);
-        line-height: 1.4;
     }
     
     .img-perfume{
@@ -213,22 +203,23 @@ footer {
     
     .old{
         font-size: 14px;
-        margin-top: 15px;
+        margin-top: 16px;
         margin-left: 4px;
+        left: 11em;
     }
     
     .boton{
         background-color: var(--dark-cyan);
         border-radius: 8px;
-        margin: 15px 10px;
         width: 290px;
-        height: 45px;
+        height: 50px;
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         color:var(--white);
+        display: block;
     }
 
-    .attribution { font-size: 13px; text-align: center; margin: 0 10px; }
+    .attribution { font-size: 16px; text-align: center; margin: 10px 10px; }
     .attribution a { color: hsl(228, 45%, 44%); text-decoration: none;}
    
 }
