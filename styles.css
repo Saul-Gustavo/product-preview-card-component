@@ -1,0 +1,205 @@
+/* google fonts */
+@import url(https://fonts.google.com/specimen/Montserrat);
+@import url(https://fonts.google.com/specimen/Fraunces);
+
+:root{
+
+    /* primary */
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+
+    /* neutral */
+    --dark-blue: hsl(212, 21%, 14%);
+    --dark-garish: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+
+    /* font size */
+    --paragraph: 14px;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--cream);
+    font-size: var(--paragraph);
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+    height: 420px;
+    margin: 100px auto;
+    background: var(--white);
+    border-radius: 8px;
+}
+
+.card{
+    margin: 10px;
+}
+
+.title{
+    color: var(--dark-garish);
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 15px;
+    padding: 10px;
+}
+
+.sub-title{
+    margin: 10px 20px;
+    font-size: 28px;
+    color: var(--dark-blue);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+.text {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    margin: 20px 20px;
+    font-size: var(--paragraph);
+    color: var(--dark-garish);
+    line-height: 1.7;
+}
+
+.img-perfume{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.values{
+    display: flex;
+}
+
+.new{
+    font-size: 33px;
+    margin: 0 15px;
+    color: var(--dark-cyan);
+    font-size: 33px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    
+}
+
+.old{
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 4px;
+}
+
+
+.boton{
+    background-color: var(--dark-cyan);
+    border-radius: 8px;
+    margin: 15px 30px 0 30px;            /* margin: 20px 32px 0 32px; */
+    height: 35px;
+    width: 199px;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color:var(--cream);
+}
+
+.boton:hover{
+    cursor: pointer;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* mibile screen */ 
+
+@media screen and (max-width: 375px) {
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        width: 340px;
+        height: 650px;
+        margin: 80px auto;
+        background: var(--white);
+        border-radius: 10px;
+    }
+
+    .card-info{
+        margin: 17px;
+    }
+
+    .title{
+        color: var(--dark-garish);
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        margin: 5px 10px;
+        padding: 5px;
+    }
+
+    .sub-title{
+        margin: 20px 10px;
+        font-size: 28px;
+        color: var(--dark-blue);
+        font-family: 'Fraunces', serif;
+        font-weight: 800;
+    }
+    
+    .more{
+        font-family: 'Fraunces', sans-serif;
+        font-weight: 500;
+        text-align: left;
+        margin: 20px 10px;
+        --paragraph: 14px;
+        color: var(--dark-garish);
+        line-height: 1.4;
+    }
+    
+    .img-perfume{
+        object-fit: cover;
+        height: 270px;
+        width: 100%;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+    }
+    
+    .values{
+        display: flex;
+    }
+    
+    .new{
+        font-size: 33px;
+        margin: 0 15px;
+        color: var(--dark-cyan);
+        font-size: 33px;
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+    }
+    
+    .old{
+        font-size: 14px;
+        margin-top: 15px;
+        margin-left: 4px;
+    }
+    
+    .boton{
+        background-color: var(--dark-cyan);
+        border-radius: 8px;
+        margin: 15px 10px;
+        width: 290px;
+        height: 45px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color:var(--white);
+    }
+
+    .attribution { font-size: 13px; text-align: center; margin: 0 10px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+   
+}
