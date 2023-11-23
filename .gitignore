@@ -1,5 +1,6 @@
 .emv
 .git
+.figma
 *.sketch
 *.fig
 
